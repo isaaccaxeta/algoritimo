@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int leidade (){
+int eu;
+    printf("Digite a idade (0 a 110)\n");
+    scanf ("%d", &i);
+    enquanto (i < 0 || i > 110){
+        printf("Digite novamente\n");
+        scanf ("%d", &i);
+    }
+    retornar i;
+}
+int abs (int x) {
+  se (x < 0) x = (-1)* x;
+  retornar x;
+}
+int principal() {
+    int id1, id2;
+    id1 = leiidade();
+    id2 = leiidade();
+    
+    printf("dif = %d", abs(id1 - id2));
+    retorna 0;
+}
