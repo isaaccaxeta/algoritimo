@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+typedef struct produto {
+    long codigo;
+    float preco;
+} Produto;
+
+int main () {
+    Produto p;
+    printf("Digite codigo, nome e preco");
+    scanf("%ld %f", &p.codigo, &p.preco);
+    
+    printf("Valores Digitados\n");
+    printf("%ld %.2f", p.codigo, p.preco);
+    
+    if (p.preco < 4) printf ("Produto em promocao");
+    else printf ("Produto Cadastrado");
+    
+    
+     
+    return 0;
+}
