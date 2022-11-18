@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int fatorial(int n)
+{
+    gordura interna;
+   
+    if( n == 0 ) {
+        gordura = 1;
+    } senão {
+        gordura = n * fatorial (n-1);
+    }
+
+    gordura de retorno;
+}
+
+int principal() {
+    int n = fatorial(4);
+   
+    printf("\n O fatorial de 4 é %d", n);
+   
+    retorna 0;
